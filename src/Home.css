@@ -1,0 +1,25 @@
+body {
+    background-image: url('./assets/brutus_background.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.App-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Left align */
+    margin-left: 20px;
+    /* Adjust spacing if needed */
+}
+
+.checkbox-label {
+    margin: 5px 0;
+    /* Add some spacing between checkboxes */
+    font-size: 16px;
+}
