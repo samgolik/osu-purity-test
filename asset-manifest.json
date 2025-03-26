@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.603c7080.css",
-    "main.js": "/static/js/main.cafeebc5.js",
+    "main.js": "/static/js/main.925efbe9.js",
     "static/js/453.dce35ff4.chunk.js": "/static/js/453.dce35ff4.chunk.js",
     "static/media/brutus_background.PNG": "/static/media/brutus_background.fceb7ed03f3cf1e124dd.PNG",
     "static/media/OSU_purity_title.PNG": "/static/media/OSU_purity_title.7f1081fcd1f511abf4e2.PNG",
     "index.html": "/index.html",
     "main.603c7080.css.map": "/static/css/main.603c7080.css.map",
-    "main.cafeebc5.js.map": "/static/js/main.cafeebc5.js.map",
+    "main.925efbe9.js.map": "/static/js/main.925efbe9.js.map",
     "453.dce35ff4.chunk.js.map": "/static/js/453.dce35ff4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.603c7080.css",
-    "static/js/main.cafeebc5.js"
+    "static/js/main.925efbe9.js"
   ]
 }
