@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/osu-purity-test/static/css/main.76ae14b4.css",
-    "main.js": "/osu-purity-test/static/js/main.eca8a441.js",
-    "static/js/453.dce35ff4.chunk.js": "/osu-purity-test/static/js/453.dce35ff4.chunk.js",
-    "static/media/brutus_background.PNG": "/osu-purity-test/static/media/brutus_background.fceb7ed03f3cf1e124dd.PNG",
-    "static/media/OSU_purity_title.PNG": "/osu-purity-test/static/media/OSU_purity_title.7f1081fcd1f511abf4e2.PNG",
-    "index.html": "/osu-purity-test/index.html",
-    "main.76ae14b4.css.map": "/osu-purity-test/static/css/main.76ae14b4.css.map",
-    "main.eca8a441.js.map": "/osu-purity-test/static/js/main.eca8a441.js.map",
-    "453.dce35ff4.chunk.js.map": "/osu-purity-test/static/js/453.dce35ff4.chunk.js.map"
+    "main.css": "/static/css/main.603c7080.css",
+    "main.js": "/static/js/main.cafeebc5.js",
+    "static/js/453.dce35ff4.chunk.js": "/static/js/453.dce35ff4.chunk.js",
+    "static/media/brutus_background.PNG": "/static/media/brutus_background.fceb7ed03f3cf1e124dd.PNG",
+    "static/media/OSU_purity_title.PNG": "/static/media/OSU_purity_title.7f1081fcd1f511abf4e2.PNG",
+    "index.html": "/index.html",
+    "main.603c7080.css.map": "/static/css/main.603c7080.css.map",
+    "main.cafeebc5.js.map": "/static/js/main.cafeebc5.js.map",
+    "453.dce35ff4.chunk.js.map": "/static/js/453.dce35ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76ae14b4.css",
-    "static/js/main.eca8a441.js"
+    "static/css/main.603c7080.css",
+    "static/js/main.cafeebc5.js"
   ]
 }
