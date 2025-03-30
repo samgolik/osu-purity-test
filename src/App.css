@@ -23,3 +23,28 @@ body {
   /* Add some spacing between checkboxes */
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
+
+  .App-header {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .checkbox-container {
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  .checkbox-label {
+    font-size: 14px;
+  }
+
+  .App-title {
+    font-size: 24px;
+    text-align: center;
+  }
+}

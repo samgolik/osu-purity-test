@@ -1,4 +1,4 @@
-import osuTitle from './assets/OSU_purity_title.PNG';
+import osuTitle from './assets/opt_title.png';
 import questions from './questions';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
@@ -23,14 +23,20 @@ function Home() {
   const submit = () => {
     const score = calculateScore();
     navigate('/results', { state: { score } });
+  }
 
+  const clear = () => {
+    checkboxes.forEach(item => {
+      const checkbox = document.getElementById(item.id);
+      checkbox.checked = false;
+    });
   }
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={osuTitle} alt="OSU Purity Title" />
-        <h2>Text goes here</h2>
+        <img className="App-title" src={osuTitle} alt="OSU Purity Test" />
+        <h1>The OSU Purity Test is a fun and revealing quiz designed specifically for Ohio State students! Inspired by the classic Rice Purity Test, this questionnaire measures your college experiences—Buckeye-style. From campus traditions to late-night adventures, see how your OSU purity score stacks up against your friends!</h1>
         <div className="checkbox-container">
           {checkboxes.map((item) => (
             <label key={item.id} className="checkbox-label">
@@ -39,7 +45,10 @@ function Home() {
           ))}
         </div>
       </header>
-      <button onClick={submit}>Calculate</button>
+      <div className="button-container">
+        <button className="calculate-button" onClick={submit}>Calculate</button>
+        <button className="clear-button" onClick={clear}>Clear Checkboxes</button>
+      </div>
     </div>
   );
 }
