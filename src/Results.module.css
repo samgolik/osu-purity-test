@@ -1,0 +1,77 @@
+body {
+    background-image: url('./assets/opt_background.png');
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.AppHeader {
+    padding: 20px;
+    text-align: center;
+}
+
+.AppHeader h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.AppHeader h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.CheckboxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+}
+
+.CheckboxLabel {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.BackButton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8f1004;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.BackButton:hover {
+    background-color: #a00;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+
+    .AppHeader {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .CheckboxLabel {
+        font-size: 14px;
+    }
+
+    .AppTitle {
+        width: 100%;
+        text-align: center;
+    }
+}
